@@ -7,16 +7,16 @@
 
 
 module y_idler_base(){
- translate(v = [0,0,0]) cylinder(h = 19, r=8);	
- translate(v = [0,20,0]) cylinder(h = 19, r=8);
- translate(v = [0,10,9.5]) cube(size = [16,20,19], center=true);
- translate(v = [-4,10,9.5]) cube(size = [8,16+20,19], center=true);
+ translate(v = [0,0,-5]) cylinder(h = 30, r=8);	
+ translate(v = [0,20,-5]) cylinder(h = 30, r=8);
+ translate(v = [0,10,10]) cube(size = [16,20,30], center=true);
+ translate(v = [-4,10,10]) cube(size = [8,16+20,30], center=true);
 }
 
 module y_idler_holes(){
- translate(v = [0,0,-1]) cylinder(h = 120, r=1.8);	
- translate(v = [0,20,-1]) cylinder(h = 25, r=4.5);
- translate(v = [0,0,4]) cylinder(h = 11, r=12);
+ translate(v = [0,0,-10]) cylinder(h = 120, r=2.3);	
+ translate(v = [0,20,-10]) cylinder(h = 120, r=4.5);
+ translate(v = [0,0,2]) cylinder(h = 16, r=12);
 }
 
 // Final part
